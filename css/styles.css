@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Lato", Arial, sans-serif;
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(images/bg-pattern-top.svg);
+  background-position: -250px -550px, 700px 365px;
+  background-repeat: no-repeat;
+  color: hsl(227, 10%, 46%);
+  font-size: 18px;
+  text-align: center;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  color: #fffl background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) background-size: 400% 400%;
+  position: relative;
+  animation: change 1s ease-in-out infinite;
+}
+
+.background-card {
+  background-color: #bce6eb;
+  background-image: url(images/bg-pattern-card.svg);
+  border-radius: 20px 20px 0 0;
+  height: 140px;
+  width: 350px;
+}
+
+.div {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.box-photo {
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 375px;
+  width: 350px;
+}
+
+.profile-photo {
+  position: relative;
+  bottom: 45px;
+}
+
+.name {
+  font-family: 'Big Shoulders Stencil Text', cursive;
+  color: hsl(150, 15%, 15%);
+  font-weight: 750;
+}
+
+.age {
+  margin-left: 5px;
+}
+
+.city {
+  font-size: 16px;
+  position: relative;
+  top: 20px;
+}
+
+hr {
+  border: 1px solid #f2f2f2;
+  position: relative;
+  bottom: 10px;
+  margin: 20px 0 0 0;
+  width: 100%;
+}
+
+.followers-likes-photos {
+  font-size: 8px;
+  letter-spacing: 2px;
+}
+
+.profile-data {
+  position: relative;
+  bottom: 40px;
+}
+
+.number {
+  color: hsl(150, 15%, 15%);
+  font-weight: 750;
+}
+
+.information {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 25%;
+  width: 100%;
+}
+
+@@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+}
